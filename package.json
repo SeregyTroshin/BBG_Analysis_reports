@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "start": "npx serve -s . -l $PORT"
+    "start": "npx serve . -l $PORT"
   }
 }
