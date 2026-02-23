@@ -134,6 +134,12 @@
         }
         .badge-regular { background: #238636; color: white; }
         .badge-premarket { background: #f0883e; color: #000; }
+        .badge-gemini {
+            display: inline-block; padding: 2px 8px; border-radius: 3px;
+            font-size: 10px; font-weight: bold; margin-left: 6px;
+            background: linear-gradient(135deg, #4285f4, #ea4335, #fbbc04, #34a853);
+            color: white; letter-spacing: 0.5px;
+        }
         .charts-container { margin-top: 20px; }
         .chart-wrapper {
             background: #0d1117;
@@ -250,6 +256,52 @@
                 </div>
 </div></div>
 
+        <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 20px; margin-bottom: 25px;">
+            <h3 style="color: #58a6ff; margin-bottom: 12px; font-size: 15px;">Exchange &times; Session</h3>
+            <table class="returns-table" style="font-size: 13px;">
+                <tr>
+                    <th>Exchange</th>
+<th>Regular</th>
+<th>Pre-Market</th>
+<th>Total</th></tr>
+<tr><td style="text-align:left;"><strong>NYSE / NASDAQ</strong></td>
+<td>20</td>
+<td>9</td>
+<td><strong>29</strong></td></tr>
+<tr><td style="text-align:left;"><strong>Euronext</strong></td>
+<td>3</td>
+<td><span style="color:#30363d;">—</span></td>
+<td><strong>3</strong></td></tr>
+<tr><td style="text-align:left;"><strong>LSE</strong></td>
+<td>3</td>
+<td><span style="color:#30363d;">—</span></td>
+<td><strong>3</strong></td></tr>
+<tr><td style="text-align:left;"><strong>XETRA</strong></td>
+<td>2</td>
+<td><span style="color:#30363d;">—</span></td>
+<td><strong>2</strong></td></tr>
+<tr><td style="text-align:left;"><strong>IDX</strong></td>
+<td>1</td>
+<td><span style="color:#30363d;">—</span></td>
+<td><strong>1</strong></td></tr>
+<tr><td style="text-align:left;"><strong>OMX</strong></td>
+<td>1</td>
+<td><span style="color:#30363d;">—</span></td>
+<td><strong>1</strong></td></tr>
+<tr><td style="text-align:left;"><strong>TSX</strong></td>
+<td>1</td>
+<td><span style="color:#30363d;">—</span></td>
+<td><strong>1</strong></td></tr>
+<tr><td style="text-align:left;"><strong>Borsa Italiana</strong></td>
+<td>1</td>
+<td><span style="color:#30363d;">—</span></td>
+<td><strong>1</strong></td></tr>
+<tr style="border-top: 2px solid #30363d;"><td style="text-align:left;"><strong>Total</strong></td>
+<td><strong>32</strong></td>
+<td><strong>9</strong></td>
+<td><strong>41</strong></td></tr>
+</table></div>
+
         <h2>Backtest Results: Buy Target Stock</h2>
         <p style="color: #8b949e; margin-bottom: 15px;">Entry: 5s after news, Position: $1,000, Slippage: 0.01%, Commission: 0.005%</p>
         <table class="returns-table">
@@ -354,7 +406,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">HSY.NYSE</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2024-12-09 15:04:43 UTC</div>
             </div>
@@ -548,7 +600,7 @@
                     <span style="color: #6e7681; font-size: 13px; font-weight: 600; margin-right: 6px;">#2</span>
 
                     <span class="ticker target">VRLA.EURONEXT</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-01-31 15:34:47 UTC</div>
             </div>
@@ -774,7 +826,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">CEC.XETRA</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-02-05 10:55:45 UTC</div>
             </div>
@@ -998,7 +1050,7 @@
                     <span style="color: #6e7681; font-size: 13px; font-weight: 600; margin-right: 6px;">#4</span>
 
                     <span class="ticker target">PSFE.NYSE</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-02-06 16:12:44 UTC</div>
             </div>
@@ -1224,7 +1276,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">DNB.NYSE</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-03-21 18:24:05 UTC</div>
             </div>
@@ -1674,7 +1726,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">GES.NYSE</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-04-24 18:36:33 UTC</div>
             </div>
@@ -1900,7 +1952,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">TXNM.NYSE</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-05-12 13:43:40 UTC</div>
             </div>
@@ -2126,7 +2178,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">INFA.NYSE</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-05-23 19:16:32 UTC</div>
             </div>
@@ -2352,7 +2404,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">SXS.LSE</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-06-09 11:01:57 UTC</div>
             </div>
@@ -2578,7 +2630,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">PTC.NASDAQ</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-07-09 19:55:57 UTC</div>
             </div>
@@ -2804,7 +2856,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">PFGC.NYSE</span>
-                    <span class="badge-session badge-premarket">PRE_MARKET</span>
+                    <span class="badge-session badge-premarket">PRE_MARKET</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-07-11 10:20:30 UTC</div>
             </div>
@@ -3028,7 +3080,7 @@
                     <span style="color: #6e7681; font-size: 13px; font-weight: 600; margin-right: 6px;">#13</span>
 
                     <span class="ticker target">SNV.NYSE</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-07-22 18:00:59 UTC</div>
             </div>
@@ -3254,7 +3306,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">DAY.NYSE</span>
-                    <span class="badge-session badge-premarket">PRE_MARKET</span>
+                    <span class="badge-session badge-premarket">PRE_MARKET</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-08-20 11:01:48 UTC</div>
             </div>
@@ -3480,7 +3532,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">JTC.LSE</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-08-29 10:23:20 UTC</div>
             </div>
@@ -3706,7 +3758,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">SATS.NASDAQ</span>
-                    <span class="badge-session badge-premarket">PRE_MARKET</span>
+                    <span class="badge-session badge-premarket">PRE_MARKET</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-09-08 10:29:02 UTC</div>
             </div>
@@ -3932,7 +3984,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">HOLX.NASDAQ</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-09-17 19:57:26 UTC</div>
             </div>
@@ -4384,7 +4436,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">ABN.EURONEXT</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-09-22 15:20:15 UTC</div>
             </div>
@@ -4834,7 +4886,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">BHF.NASDAQ</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-10-16 17:05:31 UTC</div>
             </div>
@@ -5060,7 +5112,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">MTSR.NASDAQ</span>
-                    <span class="badge-session badge-premarket">PRE_MARKET</span>
+                    <span class="badge-session badge-premarket">PRE_MARKET</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-10-30 08:53:52 UTC</div>
             </div>
@@ -5286,7 +5338,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">NEXI.MIL</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-11-07 13:19:46 UTC</div>
             </div>
@@ -5512,7 +5564,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">THS.NYSE</span>
-                    <span class="badge-session badge-premarket">PRE_MARKET</span>
+                    <span class="badge-session badge-premarket">PRE_MARKET</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-11-10 11:30:32 UTC</div>
             </div>
@@ -5738,7 +5790,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">EXAS.NASDAQ</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-11-19 18:37:18 UTC</div>
             </div>
@@ -6190,7 +6242,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">DBRG.NYSE</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2025-12-05 15:09:00 UTC</div>
             </div>
@@ -6416,7 +6468,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">QXO.NYSE</span>
-                    <span class="badge-session badge-premarket">PRE_MARKET</span>
+                    <span class="badge-session badge-premarket">PRE_MARKET</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2026-01-05 10:00:29 UTC</div>
             </div>
@@ -6640,7 +6692,7 @@
                     <span style="color: #6e7681; font-size: 13px; font-weight: 600; margin-right: 6px;">#29</span>
 
                     <span class="ticker target">QGEN.NYSE</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2026-01-20 16:26:34 UTC</div>
             </div>
@@ -6866,7 +6918,7 @@
 <span class="arrow">&rarr;</span>
 
                     <span class="ticker target">WBS.NYSE</span>
-                    <span class="badge-session badge-regular">REGULAR</span>
+                    <span class="badge-session badge-regular">REGULAR</span><span class="badge-gemini">GEMINI</span>
                 </div>
                 <div class="trade-time">2026-02-03 18:09:30 UTC</div>
             </div>
